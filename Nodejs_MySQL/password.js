@@ -1,4 +1,5 @@
 module.exports = {
-  id:'egoing',
-  password:'111111'
+  id: 'egoing',
+  password: '111111'
 }
+//del
