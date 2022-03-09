@@ -2,12 +2,12 @@
 //  ViewController.swift
 //  ImageView
 //
-//  Created by jung on 2021/12/27.
+//  Created by jung on 2022/03/09.
 //
 
 import UIKit
 
-class ImageViewController: UIViewController {
+class ViewController: UIViewController {
     var isZoom = false
     var imgOn: UIImage?
     var imgOff: UIImage?
@@ -29,7 +29,7 @@ class ImageViewController: UIViewController {
         let scale:CGFloat = 2.0
         var newWidth:CGFloat, newHeight:CGFloat
         
-        if (isZoom){
+        if(isZoom){
             newWidth = imgView.frame.width/scale
             newHeight = imgView.frame.height/scale
             btnResize.setTitle("확대", for: .normal)
@@ -42,7 +42,7 @@ class ImageViewController: UIViewController {
         imgView.frame.size = CGSize(width: newWidth, height: newHeight)
         isZoom = !isZoom
     }
-    @IBAction func switchimageOnOff(_ sender: UISwitch) {
+    @IBAction func switchImageOnOff(_ sender: UISwitch) {
         if sender.isOn{
             imgView.image = imgOn
         }
