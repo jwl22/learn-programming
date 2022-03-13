@@ -27,22 +27,22 @@
                                 <rect key="frame" x="54" y="162" width="305" height="559"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BMr-dg-Lvp">
-                                <rect key="frame" x="54" y="761" width="145" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S4d-8G-O0L">
+                                <rect key="frame" x="54" y="766" width="153" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="이전"/>
                                 <connections>
-                                    <action selector="btnPreviousImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NHb-wR-Vt5"/>
+                                    <action selector="btnPreviousImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mQx-RA-9E9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vh1-Uu-FJm">
-                                <rect key="frame" x="207" y="761" width="145" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nku-ZG-I5s">
+                                <rect key="frame" x="215" y="766" width="144" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="다음"/>
                                 <connections>
-                                    <action selector="btnNextImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h8Y-UD-wOn"/>
+                                    <action selector="btnNextImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bpx-fD-Fwf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -50,9 +50,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="btnNext" destination="Vh1-Uu-FJm" id="OBF-UQ-p4K"/>
-                        <outlet property="btnPrevious" destination="BMr-dg-Lvp" id="2ld-Zv-sAS"/>
-                        <outlet property="imgView" destination="1Im-rL-Z0y" id="6hF-Lm-tOJ"/>
+                        <outlet property="imgView" destination="1Im-rL-Z0y" id="WB3-Ia-9Xh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

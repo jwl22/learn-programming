@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     @IBAction func btnPreviousImage(_ sender: UIButton) {
         numImage -= 1
         if(numImage < 1){
-            numImage = 6
+            numImage = maxImage
         }
         viewDidLoad()
     }
@@ -35,6 +35,4 @@ class ViewController: UIViewController {
         }
         viewDidLoad()
     }
-    
 }
-
