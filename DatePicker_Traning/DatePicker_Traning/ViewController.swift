@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     var pickerTime: String?
     
-    @IBOutlet vasr lblCurrentTime: UILabel!
+    @IBOutlet var lblCurrentTime: UILabel!
     @IBOutlet var lblPickerTime: UILabel!
     
     override func viewDidLoad() {
