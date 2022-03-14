@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     var pickerTime: String?
     
-    @IBOutlet var lblCurrentTime: UILabel!
+    @IBOutlet vasr lblCurrentTime: UILabel!
     @IBOutlet var lblPickerTime: UILabel!
     
     override func viewDidLoad() {
@@ -22,7 +22,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         Timer.scheduledTimer(timeInterval: interval, target: self, selector: timeSelector, userInfo: nil, repeats: true)
-        print(123)
     }
 
     @IBAction func changeDatePicker(_ sender: UIDatePicker) {
