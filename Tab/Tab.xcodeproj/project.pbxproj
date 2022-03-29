@@ -15,9 +15,11 @@
 		BCAF93FB27840C4A00683913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAF93F927840C4A00683913 /* LaunchScreen.storyboard */; };
 		BCAF940427840D3E00683913 /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BCAF940227840D3E00683913 /* lamp_on.png */; };
 		BCAF940527840D3E00683913 /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = BCAF940327840D3E00683913 /* lamp_off.png */; };
-		BCAF940927840D9500683913 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF940827840D9500683913 /* ImageViewController.swift */; };
 		BCAF940B27840E7300683913 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF940A27840E7300683913 /* DateViewController.swift */; };
 		BCAF940D278414C500683913 /* File.png in Resources */ = {isa = PBXBuildFile; fileRef = BCAF940C278414C500683913 /* File.png */; };
+		BCFC407C27F34B1200E3A1D9 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC407B27F34B1100E3A1D9 /* ImageViewController.swift */; };
+		BCFC407F27F34BDC00E3A1D9 /* Pictures32.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFC407D27F34BDC00E3A1D9 /* Pictures32.png */; };
+		BCFC408027F34BDC00E3A1D9 /* Calendar32.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFC407E27F34BDC00E3A1D9 /* Calendar32.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +33,11 @@
 		BCAF93FC27840C4A00683913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCAF940227840D3E00683913 /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
 		BCAF940327840D3E00683913 /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
-		BCAF940827840D9500683913 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = ../../ImageView/ImageView/ImageViewController.swift; sourceTree = "<group>"; };
 		BCAF940A27840E7300683913 /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateViewController.swift; path = ../../DatePicker/DatePicker/DateViewController.swift; sourceTree = "<group>"; };
 		BCAF940C278414C500683913 /* File.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = File.png; sourceTree = "<group>"; };
+		BCFC407B27F34B1100E3A1D9 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = ../../PageControl/PageControl/ImageViewController.swift; sourceTree = "<group>"; };
+		BCFC407D27F34BDC00E3A1D9 /* Pictures32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pictures32.png; sourceTree = "<group>"; };
+		BCFC407E27F34BDC00E3A1D9 /* Calendar32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar32.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +70,15 @@
 		BCAF93ED27840C4A00683913 /* Tab */ = {
 			isa = PBXGroup;
 			children = (
+				BCFC407E27F34BDC00E3A1D9 /* Calendar32.png */,
+				BCFC407D27F34BDC00E3A1D9 /* Pictures32.png */,
 				BCAF940327840D3E00683913 /* lamp_off.png */,
 				BCAF940227840D3E00683913 /* lamp_on.png */,
 				BCAF940C278414C500683913 /* File.png */,
 				BCAF940A27840E7300683913 /* DateViewController.swift */,
-				BCAF940827840D9500683913 /* ImageViewController.swift */,
 				BCAF93EE27840C4A00683913 /* AppDelegate.swift */,
 				BCAF93F027840C4A00683913 /* SceneDelegate.swift */,
+				BCFC407B27F34B1100E3A1D9 /* ImageViewController.swift */,
 				BCAF93F227840C4A00683913 /* ViewController.swift */,
 				BCAF93F427840C4A00683913 /* Main.storyboard */,
 				BCAF93F727840C4A00683913 /* Assets.xcassets */,
@@ -140,6 +146,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFC408027F34BDC00E3A1D9 /* Calendar32.png in Resources */,
+				BCFC407F27F34BDC00E3A1D9 /* Pictures32.png in Resources */,
 				BCAF940427840D3E00683913 /* lamp_on.png in Resources */,
 				BCAF93FB27840C4A00683913 /* LaunchScreen.storyboard in Resources */,
 				BCAF940527840D3E00683913 /* lamp_off.png in Resources */,
@@ -158,8 +166,8 @@
 			files = (
 				BCAF940B27840E7300683913 /* DateViewController.swift in Sources */,
 				BCAF93F327840C4A00683913 /* ViewController.swift in Sources */,
+				BCFC407C27F34B1200E3A1D9 /* ImageViewController.swift in Sources */,
 				BCAF93EF27840C4A00683913 /* AppDelegate.swift in Sources */,
-				BCAF940927840D9500683913 /* ImageViewController.swift in Sources */,
 				BCAF93F127840C4A00683913 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
