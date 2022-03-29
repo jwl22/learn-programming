@@ -13,6 +13,12 @@
 		BC22C0D42782EDC30064A6E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC22C0D22782EDC30064A6E8 /* Main.storyboard */; };
 		BC22C0D62782EDC40064A6E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC22C0D52782EDC40064A6E8 /* Assets.xcassets */; };
 		BC22C0D92782EDC40064A6E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC22C0D72782EDC40064A6E8 /* LaunchScreen.storyboard */; };
+		BCFC407527F3019D00E3A1D9 /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFC406F27F3019C00E3A1D9 /* 06.png */; };
+		BCFC407627F3019D00E3A1D9 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFC407027F3019C00E3A1D9 /* 02.png */; };
+		BCFC407727F3019D00E3A1D9 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFC407127F3019D00E3A1D9 /* 01.png */; };
+		BCFC407827F3019D00E3A1D9 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFC407227F3019D00E3A1D9 /* 03.png */; };
+		BCFC407927F3019D00E3A1D9 /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFC407327F3019D00E3A1D9 /* 04.png */; };
+		BCFC407A27F3019D00E3A1D9 /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFC407427F3019D00E3A1D9 /* 05.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		BC22C0D52782EDC40064A6E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC22C0D82782EDC40064A6E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC22C0DA2782EDC40064A6E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCFC406F27F3019C00E3A1D9 /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06.png; sourceTree = "<group>"; };
+		BCFC407027F3019C00E3A1D9 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		BCFC407127F3019D00E3A1D9 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		BCFC407227F3019D00E3A1D9 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		BCFC407327F3019D00E3A1D9 /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
+		BCFC407427F3019D00E3A1D9 /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 		BC22C0CB2782EDC30064A6E8 /* PageControl */ = {
 			isa = PBXGroup;
 			children = (
+				BCFC406E27F3017A00E3A1D9 /* images */,
 				BC22C0CC2782EDC30064A6E8 /* AppDelegate.swift */,
 				BC22C0CE2782EDC30064A6E8 /* SceneDelegate.swift */,
 				BC22C0D02782EDC30064A6E8 /* ViewController.swift */,
@@ -65,6 +78,19 @@
 				BC22C0DA2782EDC40064A6E8 /* Info.plist */,
 			);
 			path = PageControl;
+			sourceTree = "<group>";
+		};
+		BCFC406E27F3017A00E3A1D9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BCFC407127F3019D00E3A1D9 /* 01.png */,
+				BCFC407027F3019C00E3A1D9 /* 02.png */,
+				BCFC407227F3019D00E3A1D9 /* 03.png */,
+				BCFC407327F3019D00E3A1D9 /* 04.png */,
+				BCFC407427F3019D00E3A1D9 /* 05.png */,
+				BCFC406F27F3019C00E3A1D9 /* 06.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +151,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFC407827F3019D00E3A1D9 /* 03.png in Resources */,
+				BCFC407727F3019D00E3A1D9 /* 01.png in Resources */,
+				BCFC407627F3019D00E3A1D9 /* 02.png in Resources */,
 				BC22C0D92782EDC40064A6E8 /* LaunchScreen.storyboard in Resources */,
 				BC22C0D62782EDC40064A6E8 /* Assets.xcassets in Resources */,
+				BCFC407A27F3019D00E3A1D9 /* 05.png in Resources */,
+				BCFC407927F3019D00E3A1D9 /* 04.png in Resources */,
 				BC22C0D42782EDC30064A6E8 /* Main.storyboard in Resources */,
+				BCFC407527F3019D00E3A1D9 /* 06.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
