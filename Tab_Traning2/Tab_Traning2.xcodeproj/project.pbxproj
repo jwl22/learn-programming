@@ -13,6 +13,8 @@
 		BC74D2C927F34DA60065BD69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC74D2C727F34DA60065BD69 /* Main.storyboard */; };
 		BC74D2CB27F34DA60065BD69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC74D2CA27F34DA60065BD69 /* Assets.xcassets */; };
 		BC74D2CE27F34DA60065BD69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC74D2CC27F34DA60065BD69 /* LaunchScreen.storyboard */; };
+		BC74D2D627F34F530065BD69 /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74D2D527F34F530065BD69 /* WebController.swift */; };
+		BC74D2DC27F3550A0065BD69 /* htmlViewer.html in Resources */ = {isa = PBXBuildFile; fileRef = BC74D2DB27F3550A0065BD69 /* htmlViewer.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BC74D2CA27F34DA60065BD69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC74D2CD27F34DA60065BD69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC74D2CF27F34DA60065BD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC74D2D527F34F530065BD69 /* WebController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebController.swift; sourceTree = "<group>"; };
+		BC74D2DB27F3550A0065BD69 /* htmlViewer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = htmlViewer.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		BC74D2C027F34DA60065BD69 /* Tab_Traning2 */ = {
 			isa = PBXGroup;
 			children = (
+				BC74D2DB27F3550A0065BD69 /* htmlViewer.html */,
 				BC74D2C127F34DA60065BD69 /* AppDelegate.swift */,
 				BC74D2C327F34DA60065BD69 /* SceneDelegate.swift */,
 				BC74D2C527F34DA60065BD69 /* ViewController.swift */,
+				BC74D2D527F34F530065BD69 /* WebController.swift */,
 				BC74D2C727F34DA60065BD69 /* Main.storyboard */,
 				BC74D2CA27F34DA60065BD69 /* Assets.xcassets */,
 				BC74D2CC27F34DA60065BD69 /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC74D2CE27F34DA60065BD69 /* LaunchScreen.storyboard in Resources */,
+				BC74D2DC27F3550A0065BD69 /* htmlViewer.html in Resources */,
 				BC74D2CB27F34DA60065BD69 /* Assets.xcassets in Resources */,
 				BC74D2C927F34DA60065BD69 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC74D2D627F34F530065BD69 /* WebController.swift in Sources */,
 				BC74D2C627F34DA60065BD69 /* ViewController.swift in Sources */,
 				BC74D2C227F34DA60065BD69 /* AppDelegate.swift in Sources */,
 				BC74D2C427F34DA60065BD69 /* SceneDelegate.swift in Sources */,
