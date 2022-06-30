@@ -11,6 +11,16 @@ from pybo.models import User
 bp = Blueprint('auth', __name__, url_prefix='/auth')
 
 
+def login_required(view):
+    @functools.wraps(view)
+    def wrapped_view(*args, **kwargs):
+        if g.user is None:
+            _next = request.url if request.method == 'GET' else ''
+            return redirect(url_for('auth.login', next=_next))
+        return view(*args, **kwargs)
+    return wrapped_view
+
+
 @bp.route('/signup/', methods=('GET', 'POST'))
 def signup():
     form = UserCreateForm()
@@ -40,6 +50,7 @@ def login():
             error = "비밀번호가 올바르지 않습니다."
         if error is None:
             session.clear()
+            session['user_id'] = user.id
             _next = request.args.get('next', '')
             if _next:
                 return redirect(_next)
@@ -62,13 +73,3 @@ def load_logged_in_user():
 def logout():
     session.clear()
     return redirect(url_for('main.index'))
-
-
-def login_required(view):
-    @functools.wraps(view)
-    def wrapped_view(*args, **kwargs):
-        if g.user is None:
-            _next = request.url if request.method == 'GET' else ''
-            return redirect(url_for('auth.login', next=_next))
-        return view(*args, **kwargs)
-    return wrapped_view
