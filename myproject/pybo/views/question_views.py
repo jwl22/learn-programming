@@ -1,8 +1,9 @@
 from datetime import datetime
 
-from flask import Blueprint, render_template, request, url_for
+from flask import Blueprint, render_template, request, url_for, g
 from werkzeug.utils import redirect
 
+from pybo.views.auth_views import login_required
 from pybo import db
 from pybo.forms import QuestionForm, AnswerForm
 from pybo.models import Question
@@ -26,11 +27,12 @@ def detail(question_id):
 
 
 @bp.route('/create/', methods=('GET', 'POST'))
+@login_required
 def create():
     form = QuestionForm()
     if request.method == 'POST' and form.validate_on_submit():
         question = Question(subject=form.subject.data,
-                            content=form.content.data, create_date=datetime.now())
+                            content=form.content.data, create_date=datetime.now(), user=g.user)
         db.session.add(question)
         db.session.commit()
         return redirect(url_for('main.index'))
