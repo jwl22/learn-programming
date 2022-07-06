@@ -1,6 +1,5 @@
 # Swift-Tutorial
-Swift Tutorial
 
-Do it 시리즈의 스위프트로 아이폰 앱 만들기를 참고하여 만들어졌습니다.
+It is the basis of development of IOS app using Swift.
 
-Swift를 이용한 IOS앱 개발의 기초입니다.
+It was made by referring to the "Do it!" series.
